@@ -1,0 +1,7 @@
+version: '3.0'
+services:
+  server:
+    image: springio/exchange-rates
+    container_name: exchange-rates-app
+    ports:
+      - 8080:8080
